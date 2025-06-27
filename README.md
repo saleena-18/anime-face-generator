@@ -1,4 +1,4 @@
-# Anime Face Generation using Unconditional Deep Variational Autoencoder (VAE)
+# Anime Character Generation using Unconditional Deep Variational Autoencoder (VAE)
 
 This project implements a **Variational Autoencoder (VAE)** for **unsupervised representation learning** and **image generation and reconstruction** on a dataset of **anime faces**. The objective is to learn a **continuous, structured latent space** that captures the semantic distribution of facial features and enables **new image synthesis** through sampling.
 
