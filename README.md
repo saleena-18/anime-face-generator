@@ -82,12 +82,6 @@ In our implementation, $\beta = \frac{1}{64 \times 64}$ to balance the KL loss.
 
 ---
 
-## Results
-
-| Original | Reconstructed |
-|----------|----------------|
-| <img src="input_image.png" width="200"/> | <img src="epoch80.png" width="200"/> |
-
 ### Latent Space (t-SNE)
 
 <p align="center">
@@ -98,7 +92,7 @@ In our implementation, $\beta = \frac{1}{64 \times 64}$ to balance the KL loss.
 
 This section showcases how the model improves over time in generating anime face images. Starting from noisy, blurry outputs in early epochs to sharp, coherent faces as the training progresses.
 
-|                        Epoch 1 |                         Epoch 1 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |
+|                        Epoch 1 step 0 |                         Epoch 1 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |
 | -----------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | --------------------------------: |
 | ![ep0](assets/epoch1_step0.png) | ![ep10](assets/epoch1_step360.png) | ![ep20](assets/epoch10.png) | ![ep40](assets/epoch20.png) | ![ep60](assets/epoch40.png) | ![ep80](assets/epoch60.png) | ![ep100](assets/epoch80.png) |
 
