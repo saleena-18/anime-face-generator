@@ -94,19 +94,13 @@ In our implementation, $\beta = \frac{1}{64 \times 64}$ to balance the KL loss.
   <img src="t-SNE_plot(latent_space).png" width="500">
 </p>
 
-### Loss Curves
-
 ### Image Generation Evolution Across Epochs
 
 This section showcases how the model improves over time in generating anime face images. Starting from noisy, blurry outputs in early epochs to sharp, coherent faces as the training progresses.
 
-|                        Epoch 0 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |
-| -----------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: |
-| ![ep0](assets/gen_epoch_0.png) | ![ep10](assets/gen_epoch_10.png) | ![ep20](assets/gen_epoch_20.png) | ![ep40](assets/gen_epoch_40.png) | ![ep60](assets/gen_epoch_60.png) | ![ep80](assets/gen_epoch_80.png) |
-
-|                        Epoch 0 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |                         Epoch 100 |
+|                        Epoch 1 |                         Epoch 1 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |
 | -----------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | --------------------------------: |
-| ![ep0](assets/gen_epoch_0.png) | ![ep10](assets/gen_epoch_10.png) | ![ep20](assets/gen_epoch_20.png) | ![ep40](assets/gen_epoch_40.png) | ![ep60](assets/gen_epoch_60.png) | ![ep80](assets/gen_epoch_80.png) | ![ep100](assets/gen_epoch_100.png) |
+| ![ep0](assets/epoch1_step0.png) | ![ep10](assets/epoch1_step360.png) | ![ep20](assets/epoch10.png) | ![ep40](assets/epoch20.png) | ![ep60](assets/epoch40.png) | ![ep80](assets/epoch60.png) | ![ep100](assets/gen_epoch80.png) |
 
 
 > *The above images are generated from the same latent vector over different training stages.*
