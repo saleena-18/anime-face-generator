@@ -43,7 +43,7 @@ The architecture includes three main components:
 * It consists of a dense layer followed by reshaping and a series of Conv2DTranspose layers (512 → 3), ending with a sigmoid activation to produce the final `(64, 64, 3)` image.
 
 <p align="center">
-  <img src="assets/vae_architecture_diagram.png" alt="VAE Diagram" width="800">
+  <img src="VAE architecture.png" alt="VAE Diagram" width="800">
 </p>
 
 ---
@@ -86,13 +86,12 @@ In our implementation, $\beta = \frac{1}{64 \times 64}$ to balance the KL loss.
 
 | Original               | Reconstructed          |
 | ---------------------- | ---------------------- |
-| ![](assets/input1.jpg) | ![](assets/recon1.jpg) |
-| ![](assets/input2.jpg) | ![](assets/recon2.jpg) |
+| ![](input_image.png) | ![](epoch80.png) |
 
 ### Latent Space (t-SNE)
 
 <p align="center">
-  <img src="assets/latent_space.png" width="500">
+  <img src="t-SNE_plot(latent_space).png" width="500">
 </p>
 
 ### Loss Curves
@@ -104,6 +103,11 @@ This section showcases how the model improves over time in generating anime face
 |                        Epoch 0 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |
 | -----------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: |
 | ![ep0](assets/gen_epoch_0.png) | ![ep10](assets/gen_epoch_10.png) | ![ep20](assets/gen_epoch_20.png) | ![ep40](assets/gen_epoch_40.png) | ![ep60](assets/gen_epoch_60.png) | ![ep80](assets/gen_epoch_80.png) |
+
+|                        Epoch 0 |                         Epoch 10 |                         Epoch 20 |                         Epoch 40 |                         Epoch 60 |                         Epoch 80 |                         Epoch 100 |
+| -----------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | -------------------------------: | --------------------------------: |
+| ![ep0](assets/gen_epoch_0.png) | ![ep10](assets/gen_epoch_10.png) | ![ep20](assets/gen_epoch_20.png) | ![ep40](assets/gen_epoch_40.png) | ![ep60](assets/gen_epoch_60.png) | ![ep80](assets/gen_epoch_80.png) | ![ep100](assets/gen_epoch_100.png) |
+
 
 > *The above images are generated from the same latent vector over different training stages.*
 
